@@ -1,0 +1,29 @@
+.venv
+venv
+__pycache__ 
+server/__pycache__
+
+client/__pycache__
+
+# Environment variables (contains sensitive API keys)
+.env
+.env.local
+.env.production
+
+# Stripe webhook logs
+stripe.log
+
+# Database files
+*.db
+*.sqlite
+*.json
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

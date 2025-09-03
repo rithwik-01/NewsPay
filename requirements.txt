@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+httpx
+Faker 
+requests
+stripe
+python-dotenv
