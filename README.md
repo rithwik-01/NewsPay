@@ -229,11 +229,3 @@ For production use, you can configure Stripe webhooks to get real-time payment c
 ## The Future is Paid (for Bots)
 
 AI Agents will quickly become the main actors of the internet. Instead of blocking them, we can embrace their programmatic access while ensuring they contribute to the cost of the resources they use. Protocols like L402 provide a standardized way to request and handle payments for API access.
-
-## Migration from PayPal
-
-This project was previously integrated with PayPal but has been updated to use Stripe for:
-- **Better Developer Experience**: Cleaner API and better documentation
-- **Modern Payment Methods**: Support for digital wallets and modern payment flows
-- **Improved Security**: Stripe's hosted checkout reduces PCI compliance burden
-- **Better Testing**: Comprehensive test mode with test cards
